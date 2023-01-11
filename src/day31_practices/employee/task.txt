@@ -1,0 +1,38 @@
+employeeTask:
+    1. Create a class named Employee
+            Variables:
+                name, age, gender, id, jobTitle, salary, comapnyName
+
+            Encapsulate all the fields
+                condition:
+                    1. Age can not be zero or negative
+                    2. Age can not be less than 18
+                    3. gender can only be set to 'M' or 'F'
+                    4. salary can not be negative
+
+            Add a constructor to set all the fields
+
+            Methods:
+                work(): prints name + " is working"
+                toString()
+
+
+    2. Create the following subclasses and override the work method in each subclass:
+
+            1. Tester
+                    work(): jobTitle + " " + name + " is testing"
+
+            2. Developer
+                    Extra variable:
+                        programmingLanguage
+
+                    work(): jobTitle + name + " is coding in "+programmingLanguage
+
+            3. Teacher
+                    work(): name + " is teaching"
+
+            4. Driver
+                    work(): name + " is driving"
+
+
+            if any adidtional field or methods needed, please add them
