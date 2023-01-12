@@ -6,14 +6,32 @@ public class AnagramStrings {
 
     public static void main(String[] args) {
 
-        String str1 = "army";
-        String str2 = "maRy";
+        String str1 = "armys";
+        String str2 = "zmary";
 
+        /*
         if(countAndSort(str1).equals(countAndSort(str2))){
             System.out.println("Is anagram");
         }else {
             System.out.println("Is NOT");
         }
+
+         */
+
+        char[] ch1 = str1.toCharArray();
+        char[] ch2 = str2.toCharArray();
+
+        Arrays.sort(ch1);
+        Arrays.sort(ch2);
+
+        if (Arrays.equals(ch1,ch2)){
+            System.out.println("Anagram");
+        }else {
+            System.out.println("is NOT");
+        }
+
+
+
 
         /*
         Map<Character, Integer> map1 = new TreeMap<>();
