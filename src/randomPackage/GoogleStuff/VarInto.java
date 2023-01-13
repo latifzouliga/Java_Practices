@@ -1,4 +1,4 @@
-package randomPackage;
+package randomPackage.GoogleStuff;
 
 import day17_practices.Student;
 
