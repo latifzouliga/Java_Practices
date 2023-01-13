@@ -3,11 +3,12 @@ package randomPackage.youtube;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-public class FindFirstUniqueChar {
 
+public class FindFirstUniqueChar {
+    int number;
     public static void main(String[] args) {
 
-        String str = "programming";
+        String str = "aaahhhehhewwwww";
 
         /*
         for (int i = 0; i < str.length(); i++) {
@@ -26,6 +27,18 @@ public class FindFirstUniqueChar {
 
         }
          */ //
+
+        String result = "";
+        for (int i = 0; i < str.length(); i++) {
+
+            if (!result.contains(str.charAt(i)+"")){
+                result += str.charAt(i);
+            }
+
+        }
+        System.out.println(result);
+
+
 
         Map<Character, Integer> map = new LinkedHashMap<>();
 
