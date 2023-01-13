@@ -9,7 +9,9 @@ public class GroupAnagrams {
 
         String[] array = {"eat", "tea", "tan", "ate", "nat", "bat", "zouliga", "hello", "olleh", "ligazou"};
 
+        System.out.println(groupAnagram(array));
 
+        /*
         Map<String,List<String>> map = new HashMap<>();
 
         for(String each : array){
@@ -25,7 +27,7 @@ public class GroupAnagrams {
         }
         System.out.println(map.values());
 
-
+         */
 
 
     }
