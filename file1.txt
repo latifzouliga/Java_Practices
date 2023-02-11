@@ -1,0 +1,5 @@
+Hello this is my first line with buffered writer
+This is my second line
+This is the third line
+
+Do not delete this file
