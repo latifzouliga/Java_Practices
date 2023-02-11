@@ -9,7 +9,24 @@ public class GroupAnagrams {
 
         String[] array = {"eat", "tea", "tan", "ate", "nat", "bat", "zouliga", "hello", "olleh", "ligazou"};
 
-        System.out.println(groupAnagram(array));
+        Map<String,List<String>> map = new HashMap<>();
+
+
+        for(String each : array){
+
+            char[] eachChar = each.toCharArray();
+            Arrays.sort(eachChar);
+            String reverse = String.valueOf(eachChar);
+
+            if(! map.containsKey(reverse)){
+                map.put(reverse, new ArrayList<>());
+            }
+            map.get(reverse).add(each);
+
+        }
+        System.out.println(map.values());
+
+        //System.out.println(groupAnagram(array));
 
         /*
         Map<String,List<String>> map = new HashMap<>();
