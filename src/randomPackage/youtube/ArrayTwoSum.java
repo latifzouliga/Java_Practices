@@ -7,9 +7,14 @@ import java.util.Map;
 public class ArrayTwoSum {
 
     public static void main(String[] args) {
-        int[] nums = {2, 3, 5, 6, 7, 35};
+        int[] array = {2, 3, 5, 6, 7, 35};
 
-        System.out.println(Arrays.toString(twoSum(new int[]{12, 34, 10, 4, 4}, 22)));
+        int target = 10;
+
+        int[] arr = twoSum(array,13);
+
+        System.out.println(Arrays.toString(arr));
+
     }
 
 

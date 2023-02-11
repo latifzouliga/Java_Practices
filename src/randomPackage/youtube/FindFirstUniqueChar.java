@@ -8,7 +8,7 @@ public class FindFirstUniqueChar {
     int number;
     public static void main(String[] args) {
 
-        String str = "aaahhhehhewwwww";
+        String str = "programmingp";
 
         /*
         for (int i = 0; i < str.length(); i++) {
@@ -28,17 +28,6 @@ public class FindFirstUniqueChar {
         }
          */ //
 
-        String result = "";
-        for (int i = 0; i < str.length(); i++) {
-
-            if (!result.contains(str.charAt(i)+"")){
-                result += str.charAt(i);
-            }
-
-        }
-        System.out.println(result);
-
-
 
         Map<Character, Integer> map = new LinkedHashMap<>();
 
@@ -50,12 +39,14 @@ public class FindFirstUniqueChar {
             }
         }
 
+
         for (Map.Entry<Character, Integer> eachEntry : map.entrySet()) {
             if (eachEntry.getValue() == 1) {
                 System.out.println("The first unique char is: " + eachEntry.getKey());
                 break;
             }
         }
+
 
     }
 }
