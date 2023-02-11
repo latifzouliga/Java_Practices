@@ -18,12 +18,15 @@ public class AnagramStrings {
 
          */
 
+        // converting string to char array
         char[] ch1 = str1.toCharArray();
         char[] ch2 = str2.toCharArray();
 
+        // sorting the char arrays
         Arrays.sort(ch1);
         Arrays.sort(ch2);
 
+        // comparing the array using static arrays equals method
         if (Arrays.equals(ch1,ch2)){
             System.out.println("Anagram");
         }else {
