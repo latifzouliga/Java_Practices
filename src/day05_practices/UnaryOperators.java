@@ -2,6 +2,13 @@ package day05_practices;
 
 public class UnaryOperators {
 
+    public UnaryOperators() {
+        System.out.println("hello");
+    }
+
+    public void UnaryOperators(){
+        System.out.println("hello");
+    }
     public static void main(String[] args) {
 
         // pre increment / decrement

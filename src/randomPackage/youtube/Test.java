@@ -12,9 +12,10 @@ class hello extends Test{
   }
 
   public static void main(String[] args) {
-    hello h = new hello();
-    h.num = 5;
+    hello hello = new hello();
+    hello.num = 5;
     Test.n = 5;
+     //hello.n
 
   }
 }
