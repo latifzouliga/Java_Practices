@@ -1,4 +1,4 @@
-package day01_practices;
+package day01_introToProgramming;
 
 public class PrintExecution { // Class header
 

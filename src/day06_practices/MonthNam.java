@@ -55,13 +55,15 @@ public class MonthNam {
     }
 }
 /*
-1. Create a class named MonthName.java
-2. An integer variable named number is declared and given, Write a program that can print the name of the
-   month that the number represents
-
-         Ex: Given:
-               number = 10
-
-         output:
-               October
+1. Create a class named MinimumNumber.java
+2. Declare the following variables:
+        1. num1
+        2. num2
+3. Write a program that can print the minimum number between the two numbers above,
+   if both are equal then print Equal
+        Ex:
+                num1 = 10
+                num2 = 20
+       output:
+              10 is the minimum number
  */

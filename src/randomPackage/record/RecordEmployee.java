@@ -9,6 +9,7 @@ package randomPackage.record;
 // Can implement interfaces
 
 // Constructor that is generated automatically in record is called canonical constructor
+/**
 public record RecordEmployee(String name, int age, String employeeId) { // this is canonical constructor
     // all the code down is optional this record can work with only one line of code
 //------------------------------------------------------------------------------------------------------------
@@ -59,3 +60,4 @@ public record RecordEmployee(String name, int age, String employeeId) { // this 
 
 
 }
+ **/
