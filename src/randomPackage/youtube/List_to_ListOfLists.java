@@ -1,9 +1,8 @@
 package randomPackage.youtube;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 public class List_to_ListOfLists {
 
@@ -20,6 +19,17 @@ public class List_to_ListOfLists {
 
         List<Integer> maxs = maxNumsOfLists(getLists(list, 6));
         System.out.println(maxs);
+
+        System.out.println("min elements of all the lists");
+        List<Integer> maxNum = getLists(list, 6).stream()
+                .flatMap(li -> li.stream().min(Integer::compareTo).stream())
+                .collect(Collectors.toList());
+        System.out.println(maxNum);
+
+
+
+
+
 
 
     }
