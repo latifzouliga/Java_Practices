@@ -1,4 +1,4 @@
-package day03_practices;
+package day03_escapeSequences;
 
 /*
 1. Create a class named Rectangle.java
