@@ -1,4 +1,4 @@
-package day04_practices;
+package day04_concatenation;
 /*
 6. Create a class named Circle and declare the following variables:
                 radius

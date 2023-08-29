@@ -1,4 +1,4 @@
-package day04_practices;
+package day04_concatenation;
 /*
 4. Create a class named GallonsToLiters and declare the following variables:
                 gallon
@@ -21,7 +21,7 @@ public class GallonsToLiters {
         double litters = 3.79;
         double result = gallon * litters;
 
-        System.out.println(gallon + " gallons is equal to " + litters + "litters");
+        System.out.println(gallon + " gallons is equal to " + result + " litters");
 
 
 

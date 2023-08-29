@@ -1,4 +1,4 @@
-package day04_practices;
+package day04_concatenation;
 /*
 8. Create a class named SwapTwoVariables1 and declare the following variables:
             x

@@ -1,4 +1,4 @@
-package day04_practices;
+package day04_concatenation;
 /*
 1. Create a class named SalaryCalculator.java
 2. Declare the following Variables:

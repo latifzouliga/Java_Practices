@@ -1,4 +1,4 @@
-package day04_practices;
+package day04_concatenation;
 /*
 5. Create a class named Square and declare the following variables:
                 side

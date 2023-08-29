@@ -1,4 +1,4 @@
-package day04_practices;
+package day04_concatenation;
 /*
 3. Create a class named KilosToPounds and declare the following variables:
                 kg

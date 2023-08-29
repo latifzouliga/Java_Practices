@@ -1,4 +1,4 @@
-package day04_practices;
+package day04_concatenation;
 /*
 7. Create a class named SalaryCalculator, and declare the following variables:
                 hourlyRate
@@ -36,9 +36,9 @@ public class SalaryCalculator_2 {
                 grossPay = hourlyRate * weeklyHours * 52,
                 statTaxPercentage = 6,
                 federalTaxPercentage = 26,
-                tatalTax = statTaxPercentage + federalTaxPercentage,
-                salaryBeforeTax = grossPay * tatalTax / 100,
-                salaryAfterTax = grossPay - tatalTax / 100,
+                totalTax = statTaxPercentage + federalTaxPercentage,
+                salaryBeforeTax = grossPay * totalTax / 100,
+                salaryAfterTax = grossPay - totalTax / 100,
                 federal_tax = grossPay * federalTaxPercentage / 100,
                 state_tax = grossPay * statTaxPercentage /100,
                 netIncome = grossPay - federal_tax - state_tax;

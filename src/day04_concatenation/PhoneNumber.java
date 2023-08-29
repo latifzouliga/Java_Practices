@@ -1,4 +1,4 @@
-package day04_practices;
+package day04_concatenation;
 /*
 1. create a class named PhoneNumber and declare the following variables:
             countryCode, areaCode, localNumber

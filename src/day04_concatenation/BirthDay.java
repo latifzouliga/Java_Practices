@@ -1,4 +1,4 @@
-package day04_practices;
+package day04_concatenation;
 /*
 2. Create a class called BirthDay and create the following variable
              name, birthDay(int), birthMonth(String), birthYear(int)
@@ -22,9 +22,9 @@ public class BirthDay {
         String name = "Jahn",
                 birthMonth = "April";
         int birthDay = 25,
-                birhtYear = 1995;
+                birthYear = 1995;
 
-        System.out.println(name + " Was born on " + birthMonth + "/" + birthDay+ "/" + birhtYear + ".");
+        System.out.println(name + " Was born on " + birthMonth + "/" + birthDay+ "/" + birthYear + ".");
 
 
     }
