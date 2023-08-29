@@ -2,7 +2,7 @@ package randomPackage.youtube;
 
 import java.util.*;
 import java.util.stream.Collectors;
-import java.util.stream.IntStream;
+
 
 public class List_to_ListOfLists {
 
@@ -39,9 +39,9 @@ public class List_to_ListOfLists {
 
         List<Integer> maxNums = new ArrayList<>();
 
-        for (int i = 0; i < lists.size(); i++) {
-            Collections.sort(lists.get(i));
-            maxNums.add(lists.get(i).get(lists.get(i).size() - 1));
+        for (List<Integer> list : lists) {
+            Collections.sort(list);
+            maxNums.add(list.get(list.size() - 1));
         }
         return maxNums;
     }
