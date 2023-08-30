@@ -1,4 +1,4 @@
-package day05_practices;
+package day05_operators;
 
 /*
 1. Create a class called SalaryCalculator.java
@@ -45,13 +45,13 @@ public class SalaryCalculator {
         System.out.println("Gross pay is: " + salaryBeforeTax);
         System.out.println("Federal Tax is: $" + federalTax);
         System.out.println("State tax is: $" + stateTax);
-        System.out.println("Tatal tax is: $" + totalTax);
+        System.out.println("Total tax is: $" + totalTax);
         System.out.println("Net income is: $" + salaryAfterTax);
         System.out.println("-------------------");
         System.out.println("Gross pay is: " + salaryBeforeTax +
                 "\nFederal Tax is: $" + federalTax +
                 "\nState tax is: $" + stateTax +
-                "\nTatal tax is: $" + totalTax +
+                "\nTotal tax is: $" + totalTax +
                 "\nNet income is: $" + salaryAfterTax);
 
 

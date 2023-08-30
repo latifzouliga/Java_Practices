@@ -1,4 +1,4 @@
-package day05_practices;
+package day05_operators;
 
 public class UnaryOperators {
 
