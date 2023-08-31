@@ -6,13 +6,13 @@ public class IfAndSwitch {
 
 
         String batch = "EU";    // Enter the name of your batch here
-        String result ="Class times are: ";
+        String result = "Class times are: ";
 
-        if (batch == "US morning"||batch == "US evening"||batch == "EU"){
-            switch (batch){
+        if (batch == "US morning" || batch == "US evening" || batch == "EU") {
+            switch (batch) {
 
                 case "US morning":
-                    result +=  "10-5 EST. M, T, Th, F.";
+                    result += "10-5 EST. M, T, Th, F.";
                     break;
                 case "US evening":
                     result += "7-10 EST. M, T, W, Th, S, S";
@@ -22,7 +22,7 @@ public class IfAndSwitch {
 
             }
 
-        }else{
+        } else {
             result = "Invalid batch";
         }
         System.out.println(result);

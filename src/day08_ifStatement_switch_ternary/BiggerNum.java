@@ -4,17 +4,17 @@ public class BiggerNum {
 
     public static void main(String[] args) {
 
-        int num1 = 11,
-                num2 = 11,
-                num3 = 11;
+        int num1 = 11;
+        int num2 = 11;
+        int num3 = 11;
         boolean num1IsBigger = num1 > num2 && num1 > num3,
-                num2Isbigger = num2> num1 && num2 > num3,
+                num2Isbigger = num2 > num1 && num2 > num3,
                 num3Isbigger = !num2Isbigger && !num1IsBigger,
                 equal = num1 == num2 && num2 == num3;
 
 
-        String result = (num1IsBigger)?"n1 is bigger":(num2Isbigger)?"n2 is bigger":(equal )?"All numbers are equal"
-                :"n3 is bigger";
+        String result = (num1IsBigger) ? "n1 is bigger" : (num2Isbigger) ? "n2 is bigger" : (equal) ? "All numbers are equal"
+                : "n3 is bigger";
 
         System.out.println(result);
 

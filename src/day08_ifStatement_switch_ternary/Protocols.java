@@ -6,7 +6,7 @@ public class Protocols {
         int statusCode = 600;
         String result;
 
-        switch (statusCode){
+        switch (statusCode) {
             case 200:
                 result = "OK";
                 break;
@@ -20,7 +20,7 @@ public class Protocols {
                 result = "Moved Permanently";
                 break;
             case 303:
-                result ="See Other";
+                result = "See Other";
                 break;
             case 304:
                 result = "Not Modified";
@@ -32,7 +32,7 @@ public class Protocols {
                 result = " Bad Request";
                 break;
             case 401:
-                result= "Unauthorised";
+                result = "Unauthorised";
                 break;
             case 403:
                 result = "Forbidden";
@@ -44,13 +44,13 @@ public class Protocols {
                 result = "Gone";
                 break;
             case 500:
-                result ="Internal Server Error";
+                result = "Internal Server Error";
                 break;
             case 503:
-                result ="Service Unavailable";
+                result = "Service Unavailable";
                 break;
             default:
-                result ="Invalid Status Code";
+                result = "Invalid Status Code";
 
         }
         System.out.println(result);

@@ -8,13 +8,13 @@ public class browser {
 
                 result = "Invalid Browser";
 
-        switch (browserName){
-            case "chrone":
-               result = browserName;
-               break;
+        switch (browserName) {
+            case "chrome":
+                result = browserName;
+                break;
             case "firefox":
-               result = browserName;
-               break;
+                result = browserName;
+                break;
             case "opera":
                 result = browserName;
                 break;

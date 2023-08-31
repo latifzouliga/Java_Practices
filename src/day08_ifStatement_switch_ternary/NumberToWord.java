@@ -4,13 +4,13 @@ public class NumberToWord {
 
     public static void main(String[] args) {
 
-        int num =22;
+        int num = 22;
 
         String word = (num >= 1 && num <= 9) ?
                 (num == 1) ? "One" : (num == 2) ? "Two" : (num == 3) ? "Three" : (num == 4) ? "Four" : (num == 5) ? "Five"
                         : (num == 6) ? "Six" : (num == 7) ? "Seven" : (num == 8) ? "Eight" : "Nine"
+                : "Invalid number";
 
-                        : "Invalid number";
         System.out.println(word);
 
 

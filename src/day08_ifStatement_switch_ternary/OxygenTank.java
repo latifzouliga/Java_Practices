@@ -9,7 +9,7 @@ public class OxygenTank {
         String result = (tankLevel >= 0 && tankLevel <= 100) ?  // Pre-condition
                 (tankLevel > 90) ? "Your tank is full" : (tankLevel > 80) ? "Still okay" : (tankLevel > 70) ? "Don't go too far"
                         : (tankLevel > 60) ? "Start to head back" : "Be careful now you  at 50%"
-        : "Invalid Number";
+                : "Invalid Number";
 
         System.out.println(result);
 

@@ -60,16 +60,13 @@ public class CydeoBatches {
         System.out.println(result3);
 
 
+        String Batch = "";
+        result = "";
 
-
-
-            String Batch = "";
-        result ="";
-
-        if (Batch == "US morning"||Batch == "US evening"||Batch == "EU"){
-            switch (batch1){
+        if (Batch == "US morning" || Batch == "US evening" || Batch == "EU") {
+            switch (batch1) {
                 case "US morning":
-                    result +=  "10-5 EST. M, T, Th, F.";
+                    result += "10-5 EST. M, T, Th, F.";
                     break;
                 case "US evening":
                     result += "7-10 EST. M, T, W, Th, S, S";
@@ -79,16 +76,12 @@ public class CydeoBatches {
                     break;
             }
 
-        }else{
+        } else {
             result = "Invalid batch";
         }
 
 
-
-
     }
-
-
 
 
 }
