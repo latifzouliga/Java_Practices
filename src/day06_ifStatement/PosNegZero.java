@@ -4,20 +4,19 @@ public class PosNegZero {
     public static void main(String[] args) {
 
         int num = 0;
-         boolean  isPositive = num > 0,
-                 isNegative = num < 0;
+        boolean isPositive = num > 0;
+        boolean isNegative = num < 0;
 
-         if (isPositive){
-             System.out.println(num + " is positive number");
-         }
+        if (isPositive) {
+            System.out.println(num + " is positive number");
+        }
 
-         if (isNegative){
-             System.out.println(num + " is negative number");
-         }
+        if (isNegative) {
+            System.out.println(num + " is negative number");
+        }
 
-         if(!isPositive && !isNegative)
-             System.out.println(num + " is zero");
-
+        if (!isPositive && !isNegative)
+            System.out.println(num + " is zero");
 
 
     }

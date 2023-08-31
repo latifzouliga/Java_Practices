@@ -4,25 +4,24 @@ public class OxygenTank {
     public static void main(String[] args) {
 
         int num = 91;
-        String statement= "";
+        String statement = "";
 
-        if (num >= 50 && num <= 60){
+        if (num >= 50 && num <= 60) {
             statement = "Be carefull now you are at 50%";
         }
-        if (num >= 60 && num < 70){
+        if (num >= 60 && num < 70) {
             statement = "Start too head back";
         }
-        if (num >= 70 && num < 80){
+        if (num >= 70 && num < 80) {
             statement = "Don't go too far";
         }
-        if ( num >= 80 && num < 90){
+        if (num >= 80 && num < 90) {
             statement = "Still okey";
         }
-        if (num > 90){
+        if (num > 90) {
             statement = "Your Tank is full";
         }
         System.out.println(statement);
-
 
 
     }
