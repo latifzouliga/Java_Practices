@@ -1,4 +1,4 @@
-package day07_ifStatement;
+package day07_ifElseStatement;
 
 public class AgeGroups {
 
@@ -8,14 +8,14 @@ public class AgeGroups {
         String result = "";
 
         if (age >= 1 && age <= 150) {
-            if (age < 21){
+            if (age < 21) {
                 result = "Teenager";
-            } else if (age >= 21 && age <55) {
+            } else if (age >= 21 && age < 55) {
                 result = "Adult";
-            }else {
+            } else {
                 result = "Senior";
             }
-        }else {
+        } else {
             result = "invalid";
         }
         System.out.println(result);

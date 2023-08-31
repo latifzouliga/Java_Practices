@@ -1,4 +1,4 @@
-package day07_ifStatement;
+package day07_ifElseStatement;
 
 public class GradeLevel {
     public static void main(String[] args) {

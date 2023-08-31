@@ -1,14 +1,14 @@
-package day07_ifStatement;
+package day07_ifElseStatement;
 
 public class Browser {
     public static void main(String[] args) {
 
-        String browserName = "Opera",
-                result = " Browser is selected";
-        boolean browses = browserName== "Chrome" || browserName == "Firefox"|| browserName == "Opera"
-                ||browserName == "Safari" || browserName == "Edge";
-        if (browses){
-            if (browserName == "Chrome"){
+        String browserName = "Opera";
+        String result = " Browser is selected";
+        boolean browses = browserName == "Chrome" || browserName == "Firefox" || browserName == "Opera"
+                || browserName == "Safari" || browserName == "Edge";
+        if (browses) {
+            if (browserName == "Chrome") {
                 result = browserName + result;
             } else if (browserName == "Firefox") {
                 result = browserName + result;
@@ -16,11 +16,11 @@ public class Browser {
                 result = browserName + result;
             } else if (browserName == "Safari") {
                 result = browserName + result;
-            }else {
+            } else {
                 result = browserName + result;
             }
 
-        }else{
+        } else {
             result = "Invalid browser name";
         }
         System.out.println(result);
