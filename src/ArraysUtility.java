@@ -168,8 +168,6 @@ public class ArraysUtility {
     }
 
 
-
-
 // -------------------------------------------replaceAll()--------------------------------------------------
 
     // replace all matching elements with new element
@@ -633,13 +631,13 @@ public class ArraysUtility {
         int[] array1 = {1, 2, 3, 4, 5, 6, 7};
         int[] array2 = {10, 20, 30, 40};
 
-        int[] newArray1 = swap(array1,1,2);
+        int[] newArray1 = swap(array1, 1, 2);
         System.out.println(Arrays.toString(newArray1));
 
 
         int index = 3;
-        int[] first = Arrays.copyOfRange(array1,0,index);
-        int[] last = Arrays.copyOfRange(array1,index,array1.length);
+        int[] first = Arrays.copyOfRange(array1, 0, index);
+        int[] last = Arrays.copyOfRange(array1, index, array1.length);
 
         int[] newArray = new int[array1.length + array2.length];
 
