@@ -1,4 +1,4 @@
-package day09_practices;
+package day09_scanner;
 
 public class SwitchStatement {
 
