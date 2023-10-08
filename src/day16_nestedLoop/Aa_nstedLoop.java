@@ -1,4 +1,4 @@
-package day16_practices;
+package day16_nestedLoop;
 
 public class Aa_nstedLoop {
 
