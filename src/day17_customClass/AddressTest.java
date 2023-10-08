@@ -1,4 +1,4 @@
-package day17_practices;
+package day17_customClass;
 
 public class AddressTest {
 
