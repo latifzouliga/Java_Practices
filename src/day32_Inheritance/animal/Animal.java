@@ -1,4 +1,4 @@
-package day32_practices.animal;
+package day32_Inheritance.animal;
 
 
 import java.util.ArrayList;
