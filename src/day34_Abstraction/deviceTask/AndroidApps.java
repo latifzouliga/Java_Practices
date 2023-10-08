@@ -1,4 +1,4 @@
-package day34_practices.deviceTask;
+package day34_Abstraction.deviceTask;
 
 public interface AndroidApps extends Downloadable{
 
