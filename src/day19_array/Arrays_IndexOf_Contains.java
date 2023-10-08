@@ -1,4 +1,4 @@
-package day19_practices;
+package day19_array;
 
 public class Arrays_IndexOf_Contains {
 

@@ -1,6 +1,4 @@
-package day19_practices;
-
-import java.util.Arrays;
+package day19_array;
 
 public class ArrayReversedNames {
 
