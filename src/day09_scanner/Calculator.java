@@ -23,7 +23,7 @@ public class Calculator {
         double resutl = 0;
 
 
-        switch (ch){
+        switch (ch) {
             case '+':
                 resutl = first_number + second_number;
                 break;

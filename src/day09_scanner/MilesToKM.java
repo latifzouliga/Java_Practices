@@ -12,9 +12,9 @@ public class MilesToKM {
 
         int miles = input.nextInt();
 
-         double  milesToKilo =  1.6*miles;
+        double milesToKilo = 1.6 * miles;
 
-        System.out.println(miles + " miles equal to "+   milesToKilo+ " Kilometers");
+        System.out.println(miles + " miles equal to " + milesToKilo + " Kilometers");
 
 
     }

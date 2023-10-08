@@ -1,9 +1,6 @@
 package randomPackage.GoogleStuff;
 
-import day17_practices.Student;
-
-import java.util.ArrayList;
-import java.util.List;
+import day17_customClass.Student;
 
 public class VarInto {
 

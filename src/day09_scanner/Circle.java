@@ -10,9 +10,9 @@ public class Circle {
         System.out.println("Enter the radius of the circle:");
 
         double radius = input.nextDouble(),
-               pi = 3.14f,
-               area = pi * radius * radius,
-               perimeter = 2 * pi * radius;
+                pi = 3.14f,
+                area = pi * radius * radius,
+                perimeter = 2 * pi * radius;
 
         System.out.println("area = " + Math.round(area));
         System.out.println("perimeter = " + Math.round(perimeter));

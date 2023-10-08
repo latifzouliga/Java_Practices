@@ -13,7 +13,7 @@ public class GradeReport {
         String result = "Invalid grade";
 
         int grade = input.nextInt();
-        if (grade >= 0 && grade <= 100){
+        if (grade >= 0 && grade <= 100) {
             result = (grade >= 90) ? "A" : (grade >= 80) ? "B" : (grade >= 70) ? "C" : (grade >= 60) ? "D" : "Failed";
         }
         System.out.println(result);
