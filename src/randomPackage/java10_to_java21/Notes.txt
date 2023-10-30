@@ -1,0 +1,31 @@
+switch statement:
+         In new version of java we can write switch statement by getting red of break statement
+         and : colon and replacing them with token error.
+         Another way of writing switch statement is to get rid of break statement and replacing it with yield
+
+Var:
+         also called LVTI: local variable type inference
+         it only works with local variables
+         it looks like dynamic typing but IT IS NOT
+         for var it is must to initialize
+
+Sealed classes:
+         In Java, we have:
+         Abstract class the is meant to be inherited,
+         Final class that is not meant to be inherited
+         What if we want something in between, a class that can be inherited but only can inherit from a specific classes
+         In this situation sealed class comes handy
+
+Record class:
+         Record class is immutable class, which means that its objects values can not be changed once they are set
+         Record class is class that has Constructor, getter methods, equals and hashcode methods, and toString method
+         A good usage of record class could be a DTO, data transfer object
+
+Text Clock:
+         A new way of writing multiple sting lines in a nice formatted way by using """""" triple double colon
+
+String template:
+         String template can be helpful when doing string concatenation with different datatype
+
+
+try to implement in NVC project Var, Record class and text block
