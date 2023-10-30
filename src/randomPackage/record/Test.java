@@ -18,7 +18,7 @@ public class Test {
         System.out.println(employee3);
 
         System.out.println("------------------------  Testing Record like class ----------------------------");
-/**
+
         RecordEmployee emp1 = new RecordEmployee("Latif",33,"W11");
         RecordEmployee emp2 = new RecordEmployee("Latif",33,"W11");
 
@@ -33,7 +33,7 @@ public class Test {
         System.out.println(RecordEmployee.hasJob);
         RecordEmployee.printHello();
 
- **/
+
     }
 
 

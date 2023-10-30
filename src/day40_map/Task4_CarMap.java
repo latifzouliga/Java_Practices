@@ -7,7 +7,7 @@ import java.util.Map;
 public class Task4_CarMap {
 
     public static void main(String[] args) {
-
+            System.out.println();
         //4. Given the following maps that contains the different car informations:
 
         Map<String, Object> car1 = new Hashtable<>();

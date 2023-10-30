@@ -10,10 +10,11 @@ package randomPackage.record;
 
 // Constructor that is generated automatically in record is called canonical constructor
 
-public record RecordEmployee(String name, int age, String employeeId) { // this is canonical constructor
-    // all the code down is optional this record can work with only one line of code
-//------------------------------------------------------------------------------------------------------------
 
+public record RecordEmployee(String name, int age, String employeeId) { // this is canonical constructor
+
+
+    // all the code down is optional this record can work with only one line of code
     // static fields can be passed her
     public static boolean hasJob;
 
@@ -22,6 +23,13 @@ public record RecordEmployee(String name, int age, String employeeId) { // this 
         hasJob = true;
     }
 
+    public static void setHasJob(boolean hasJob) {
+        RecordEmployee.hasJob = hasJob;
+    }
+
+    public static boolean isHasJob() {
+        return hasJob;
+    }
     // Constructor without parameter but the fields still can be passed to the body of constructor
     // Overriding default constructor
 

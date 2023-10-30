@@ -8,6 +8,6 @@ public class outerClass_innerPrivate_class {
         //private class can have private static variable
         private int mun = 3;
     }
-
+   
 
 }
